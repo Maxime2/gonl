@@ -13,7 +13,7 @@ import (
 // an empty slice.
 const bufSize = 32 * 1024
 
-//go:embed 2600-0.txt
+// -- go:embed 2600-0.txt
 var novel []byte
 
 // copyBuffer is a modified version of similarly named function in
